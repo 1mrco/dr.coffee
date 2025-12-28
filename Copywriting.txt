@@ -1,0 +1,130 @@
+Dr.Coffee – Website Copywriting
+🔝 HEADER (Navigation)
+Home
+Menu
+About
+How to Order
+Contact
+CTA Button:
+ORDER NOW
+🔥 HERO SECTION (Home Page)
+Headline (H1)
+START YOUR DAY THE RIGHT WAY
+Subheadline
+Fresh coffee. Bold flavors.
+Crafted to keep you energized and focused.
+CTA Buttons
+ORDER NOW
+VIEW MENU
+☕ FEATURED PRODUCTS SECTION
+Section Title
+Our Best Sellers
+Section Subtitle
+Discover the flavors our customers love the most.
+Product Card – Example Template
+Product Name: Blueberry Essence
+Description:
+A refreshing blend of smooth coffee and real blueberry flavor.
+Cold. Fresh. Perfectly balanced.
+Price:
+5,000 IQD
+Button:
+VIEW DETAILS
+(يُستخدم نفس القالب مع تغيير الوصف لكل منتج)
+Joy
+A sweet, uplifting flavor that brings instant happiness in every sip.
+Strawdairy
+Creamy strawberry goodness blended with our signature coffee base.
+Sun Ice
+Light, cool, and refreshing — made for hot days and good vibes.
+⚡ BRAND MESSAGE SECTION
+Headline
+More Than Coffee
+Paragraph
+Dr.Coffee is not just a drink.
+It’s a daily boost of energy, creativity, and mood.
+Designed for people who move fast, think sharp, and live fully.
+Brand Icons Text
+⚡ Energy that lasts
+❄ Always fresh
+☕ Premium quality
+🎨 Designed with style
+📸 LIFESTYLE SECTION
+Headline
+Coffee That Fits Your Lifestyle
+Paragraph
+Whether you’re on your way to work, meeting friends, or taking a break —
+Dr.Coffee is always the right choice.
+📲 ORDER SECTION
+Headline
+Order Without Leaving Your Car
+Paragraph
+Fast. Easy. Convenient.
+Get your favorite Dr.Coffee drink in just a few steps.
+Buttons
+Order via WhatsApp
+Call Now
+Instagram DM
+📋 MENU PAGE
+Page Title
+Our Menu
+Subtitle
+Carefully crafted drinks made to energize your day.
+Product Card – Menu Version
+Product Name
+Short flavor description
+Price
+Button:
+ORDER NOW
+🧠 ABOUT PAGE
+Page Title
+About Dr.Coffee
+Main Paragraph
+Dr.Coffee was created with one goal in mind:
+to redefine the coffee experience for a new generation.
+We blend quality ingredients, bold flavors, and modern design
+to create drinks that feel as good as they taste.
+Values Section
+Our Values
+Quality
+We use carefully selected ingredients in every cup.
+Freshness
+Every drink is made to be refreshing and energizing.
+Creativity
+We constantly innovate new flavors and ideas.
+Youth Energy
+Our brand is built for movement, ambition, and passion.
+🚗 HOW TO ORDER PAGE
+Page Title
+How to Order
+Steps
+1. Choose Your Drink
+Browse our menu and pick your favorite flavor.
+2. Contact Us
+Order via WhatsApp, call, or Instagram.
+3. Enjoy Your Coffee
+Sit back and enjoy your Dr.Coffee experience.
+📞 CONTACT PAGE
+Page Title
+Get in Touch
+Text
+We’re always happy to hear from you.
+Contact us anytime to place an order or ask a question.
+Contact Info Labels
+📞 Phone
+💬 WhatsApp
+📸 Instagram
+🔻 FOOTER
+Tagline
+Fuel Your Day. Feel the Energy.
+Copyright
+© 2025 Dr.Coffee. All rights reserved.
+🧠 TONE & USAGE NOTES (للمبرمج/المصمم)
+لا تُطِل النصوص
+العناوين Bold
+الفقرات قصيرة
+CTA واضح في كل صفحة
+النصوص قابلة للاستخدام في:
+Website
+Ads
+Landing Pages

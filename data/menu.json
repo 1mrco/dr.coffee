@@ -1,0 +1,729 @@
+{
+  "customizationOptions": [
+    {
+      "id": "extra_syrup",
+      "name_en": "Extra Syrup",
+      "name_ar": "سيروب إضافي",
+      "price": 1000
+    },
+    {
+      "id": "almond_milk",
+      "name_en": "Almond Milk",
+      "name_ar": "حليب اللوز",
+      "price": 1000
+    },
+    {
+      "id": "skimmed_milk",
+      "name_en": "Skimmed Milk",
+      "name_ar": "حليب خالي الدسم",
+      "price": 1000
+    },
+    {
+      "id": "extra_espresso",
+      "name_en": "Extra Espresso Shot",
+      "name_ar": "شوت إسبريسو إضافي",
+      "price": 1000
+    },
+    {
+      "id": "add_cream",
+      "name_en": "Add Cream",
+      "name_ar": "إضافة كريمة",
+      "price": 1000
+    }
+  ],
+  "items": [
+    {
+      "id": "iced_mocha",
+      "name_en": "Iced Mocha",
+      "name_ar": "آيس موكا",
+      "category": "Iced Coffee",
+      "tags": ["Cold"],
+      "caffeine_index": 5,
+      "customizable": true,
+      "prices": {
+        "medium": 4500,
+        "large": 6000
+      }
+    },
+    {
+      "id": "cookies_iced_latte",
+      "name_en": "Cookies Iced Latte",
+      "name_ar": "كوكيز آيس لاتيه",
+      "category": "Iced Coffee",
+      "tags": ["Cold"],
+      "caffeine_index": 4,
+      "customizable": true,
+      "prices": {
+        "medium": 4000,
+        "large": 5500
+      }
+    },
+    {
+      "id": "iced_latte",
+      "name_en": "Iced Latte",
+      "name_ar": "آيس لاتيه",
+      "category": "Iced Coffee",
+      "tags": ["Cold"],
+      "caffeine_index": 4,
+      "customizable": true,
+      "prices": {
+        "medium": 3000,
+        "large": 4000
+      }
+    },
+    {
+      "id": "iced_coffee",
+      "name_en": "Iced Coffee",
+      "name_ar": "آيس كوفي",
+      "category": "Iced Coffee",
+      "tags": ["Cold"],
+      "caffeine_index": 5,
+      "customizable": true,
+      "prices": {
+        "medium": 3000,
+        "large": 4000
+      }
+    },
+    {
+      "id": "iced_spanish_latte",
+      "name_en": "Iced Spanish Latte",
+      "name_ar": "آيس سبانيش لاتيه",
+      "category": "Iced Coffee",
+      "tags": ["Cold"],
+      "caffeine_index": 4,
+      "customizable": true,
+      "prices": {
+        "medium": 4000,
+        "large": 5000
+      }
+    },
+    {
+      "id": "iced_berry_latte",
+      "name_en": "Iced Berry Latte",
+      "name_ar": "آيس بيري لاتيه",
+      "category": "Iced Coffee",
+      "tags": ["Cold"],
+      "caffeine_index": 4,
+      "customizable": true,
+      "prices": {
+        "medium": 4000,
+        "large": 5000
+      }
+    },
+    {
+      "id": "chocolate_iced_latte",
+      "name_en": "Chocolate Iced Latte",
+      "name_ar": "جوكلت آيس لاتيه",
+      "category": "Iced Coffee",
+      "tags": ["Cold"],
+      "caffeine_index": 4,
+      "customizable": true,
+      "prices": {
+        "large": 5000
+      }
+    },
+    {
+      "id": "flavoured_iced_latte",
+      "name_en": "Flavoured Iced Latte",
+      "name_ar": "آيس لاتيه بنكهات",
+      "category": "Iced Coffee",
+      "tags": ["Cold"],
+      "caffeine_index": 4,
+      "customizable": true,
+      "flavors": ["Hazelnut", "Caramel", "Vanilla", "Coconut"],
+      "prices": {
+        "medium": 4000,
+        "large": 5500
+      }
+    },
+    {
+      "id": "iced_cappuccino",
+      "name_en": "Iced Cappuccino",
+      "name_ar": "آيس كابتشينو",
+      "category": "Iced Coffee",
+      "tags": ["Cold"],
+      "caffeine_index": 5,
+      "customizable": true,
+      "prices": {
+        "large": 5000
+      }
+    },
+    {
+      "id": "banana_cinnamon",
+      "name_en": "Banana Cinnamon",
+      "name_ar": "بنانا سينابون",
+      "category": "Iced Coffee",
+      "tags": ["Cold"],
+      "caffeine_index": 3,
+      "customizable": true,
+      "prices": {
+        "medium": 4000
+      }
+    },
+    {
+      "id": "iced_tea",
+      "name_en": "Iced Tea",
+      "name_ar": "آيس تي",
+      "category": "Iced Tea",
+      "tags": ["Cold"],
+      "caffeine_index": 2,
+      "customizable": false,
+      "prices": {
+        "medium": 3000
+      }
+    },
+    {
+      "id": "hibiscus_iced_tea",
+      "name_en": "Hibiscus Iced Tea",
+      "name_ar": "آيس تي كوجرات",
+      "category": "Iced Tea",
+      "tags": ["Cold"],
+      "caffeine_index": 0,
+      "customizable": false,
+      "prices": {
+        "medium": 3000
+      }
+    },
+    {
+      "id": "iced_tea_flavors",
+      "name_en": "Iced Tea Flavors",
+      "name_ar": "آيس تي بنكهات",
+      "category": "Iced Tea",
+      "tags": ["Cold"],
+      "caffeine_index": 2,
+      "customizable": false,
+      "flavors": ["Mango", "Peach", "Strawberry"],
+      "prices": {
+        "medium": 4000
+      }
+    },
+    {
+      "id": "ice_espresso_plain",
+      "name_en": "Ice-Espresso (Plain)",
+      "name_ar": "آيس-بريسو (سادة)",
+      "category": "Ice-Espresso",
+      "tags": ["Cold"],
+      "caffeine_index": 6,
+      "customizable": true,
+      "prices": {
+        "medium": 3500
+      }
+    },
+    {
+      "id": "ice_espresso_flavors",
+      "name_en": "Ice-Espresso Flavors",
+      "name_ar": "آيس-بريسو بنكهات",
+      "category": "Ice-Espresso",
+      "tags": ["Cold"],
+      "caffeine_index": 6,
+      "customizable": true,
+      "flavors": ["Hazelnut", "Berry", "Vanilla", "Caramel", "Cookies"],
+      "prices": {
+        "medium": 4500
+      }
+    },
+    {
+      "id": "ice_espresso_coconut",
+      "name_en": "Ice-Espresso (Coconut)",
+      "name_ar": "آيس-بريسو (جوز الهند)",
+      "category": "Ice-Espresso",
+      "tags": ["Cold"],
+      "caffeine_index": 6,
+      "customizable": true,
+      "prices": {
+        "medium": 5000
+      }
+    },
+    {
+      "id": "frappuccino",
+      "name_en": "Frappuccino",
+      "name_ar": "فرابتشينو",
+      "category": "Frappuccino",
+      "tags": ["Cold"],
+      "caffeine_index": 4,
+      "customizable": true,
+      "flavors": ["Vanilla", "Coconut", "Hazelnut", "Caramel"],
+      "prices": {
+        "medium": 5000
+      }
+    },
+    {
+      "id": "mexican_energy",
+      "name_en": "Mexican Energy",
+      "name_ar": "مكسيكي",
+      "category": "Energy Drinks",
+      "tags": ["Cold"],
+      "caffeine_index": 7,
+      "customizable": false,
+      "prices": {
+        "medium": 3000
+      }
+    },
+    {
+      "id": "cold_lava",
+      "name_en": "Cold Lava",
+      "name_ar": "كولد لافا",
+      "category": "Energy Drinks",
+      "tags": ["Cold"],
+      "caffeine_index": 7,
+      "customizable": false,
+      "prices": {
+        "medium": 4500
+      }
+    },
+    {
+      "id": "purple_haze",
+      "name_en": "Purple Haze",
+      "name_ar": "بيربل هيز",
+      "category": "Energy Drinks",
+      "tags": ["Cold"],
+      "caffeine_index": 7,
+      "customizable": false,
+      "prices": {
+        "medium": 6000
+      }
+    },
+    {
+      "id": "bloody_dairy",
+      "name_en": "Bloody Dairy",
+      "name_ar": "بلودي ديري",
+      "category": "Yogurt & Essence",
+      "tags": ["Cold"],
+      "caffeine_index": 0,
+      "customizable": false,
+      "prices": {
+        "medium": 7000
+      }
+    },
+    {
+      "id": "berry_essence",
+      "name_en": "Berry Essence",
+      "name_ar": "جوهر التوت",
+      "category": "Yogurt & Essence",
+      "tags": ["Cold"],
+      "caffeine_index": 0,
+      "customizable": false,
+      "prices": {
+        "medium": 7000
+      }
+    },
+    {
+      "id": "joy",
+      "name_en": "Joy",
+      "name_ar": "سعادة",
+      "category": "Yogurt & Essence",
+      "tags": ["Cold"],
+      "caffeine_index": 0,
+      "customizable": false,
+      "prices": {
+        "medium": 7000
+      }
+    },
+    {
+      "id": "brownies_shake",
+      "name_en": "Brownies Shake",
+      "name_ar": "براونيز",
+      "category": "Milkshakes",
+      "tags": ["Cold"],
+      "caffeine_index": 0,
+      "customizable": true,
+      "prices": {
+        "without_cream": 4000,
+        "with_cream": 5000
+      }
+    },
+    {
+      "id": "strawberry_ice_cream",
+      "name_en": "Strawberry Ice Cream Shake",
+      "name_ar": "ستروبيري آيس كريم",
+      "category": "Milkshakes",
+      "tags": ["Cold"],
+      "caffeine_index": 0,
+      "customizable": true,
+      "prices": {
+        "without_cream": 4000,
+        "with_cream": 5000
+      }
+    },
+    {
+      "id": "pistachio_biscuits",
+      "name_en": "Pistachio Biscuits Shake",
+      "name_ar": "فستق بسكويت",
+      "category": "Milkshakes",
+      "tags": ["Cold"],
+      "caffeine_index": 0,
+      "customizable": true,
+      "prices": {
+        "without_cream": 5000,
+        "with_cream": 6000
+      }
+    },
+    {
+      "id": "oreo_kinder_lotus",
+      "name_en": "Oreo/Kinder/Lotus Shake",
+      "name_ar": "أوريو/كيندر/لوتس",
+      "category": "Milkshakes",
+      "tags": ["Cold"],
+      "caffeine_index": 0,
+      "customizable": true,
+      "prices": {
+        "medium": 4000,
+        "large": 5500,
+        "medium_with_cream": 5000,
+        "large_with_cream": 6500
+      }
+    },
+    {
+      "id": "protein_shake_banana_strawberry",
+      "name_en": "Protein Shake (Banana & Strawberry)",
+      "name_ar": "بروتين شيك (موز وفراولة)",
+      "category": "Protein Shakes",
+      "tags": ["Cold"],
+      "caffeine_index": 0,
+      "customizable": false,
+      "prices": {
+        "medium": 5000
+      }
+    },
+    {
+      "id": "protein_shake_chocolate",
+      "name_en": "Protein Shake (Chocolate)",
+      "name_ar": "بروتين شيك (شوكولاتة)",
+      "category": "Protein Shakes",
+      "tags": ["Cold"],
+      "caffeine_index": 0,
+      "customizable": false,
+      "prices": {
+        "medium": 5000
+      }
+    },
+    {
+      "id": "smoothie_strawberry",
+      "name_en": "Strawberry Smoothie",
+      "name_ar": "سموذي فراولة",
+      "category": "Smoothies",
+      "tags": ["Cold"],
+      "caffeine_index": 0,
+      "customizable": false,
+      "prices": {
+        "medium": 5000,
+        "large": 6500
+      }
+    },
+    {
+      "id": "smoothie_mango",
+      "name_en": "Mango Smoothie",
+      "name_ar": "سموذي مانجو",
+      "category": "Smoothies",
+      "tags": ["Cold"],
+      "caffeine_index": 0,
+      "customizable": false,
+      "prices": {
+        "medium": 5000,
+        "large": 6500
+      }
+    },
+    {
+      "id": "smoothie_red_mango",
+      "name_en": "Red Mango Smoothie",
+      "name_ar": "سموذي ريد مانجو",
+      "category": "Smoothies",
+      "tags": ["Cold"],
+      "caffeine_index": 0,
+      "customizable": false,
+      "prices": {
+        "medium": 5000,
+        "large": 6500
+      }
+    },
+    {
+      "id": "smoothie_pomegranate",
+      "name_en": "Pomegranate Smoothie",
+      "name_ar": "سموذي رمان",
+      "category": "Smoothies",
+      "tags": ["Cold"],
+      "caffeine_index": 0,
+      "customizable": false,
+      "prices": {
+        "medium": 5000,
+        "large": 6500
+      }
+    },
+    {
+      "id": "fresh_orange_juice",
+      "name_en": "Fresh Orange Juice",
+      "name_ar": "عصير برتقال طازج",
+      "category": "Fresh Juices",
+      "tags": ["Cold"],
+      "caffeine_index": 0,
+      "customizable": false,
+      "prices": {
+        "medium": 4500
+      }
+    },
+    {
+      "id": "fresh_lemon_juice",
+      "name_en": "Fresh Lemon Juice",
+      "name_ar": "عصير ليمون طازج",
+      "category": "Fresh Juices",
+      "tags": ["Cold"],
+      "caffeine_index": 0,
+      "customizable": false,
+      "prices": {
+        "medium": 4000
+      }
+    },
+    {
+      "id": "fresh_banana_juice",
+      "name_en": "Fresh Banana Juice",
+      "name_ar": "عصير موز طازج",
+      "category": "Fresh Juices",
+      "tags": ["Cold"],
+      "caffeine_index": 0,
+      "customizable": false,
+      "prices": {
+        "medium": 4500
+      }
+    },
+    {
+      "id": "fresh_manda_juice",
+      "name_en": "Fresh Manda Juice",
+      "name_ar": "عصير ماندا طازج",
+      "category": "Fresh Juices",
+      "tags": ["Cold"],
+      "caffeine_index": 0,
+      "customizable": false,
+      "prices": {
+        "medium": 5000
+      }
+    },
+    {
+      "id": "espresso_single",
+      "name_en": "Espresso (Single)",
+      "name_ar": "إسبريسو (واحد)",
+      "category": "Hot Coffee",
+      "tags": ["Hot"],
+      "caffeine_index": 6,
+      "customizable": false,
+      "prices": {
+        "small": 2000
+      }
+    },
+    {
+      "id": "espresso_double",
+      "name_en": "Espresso (Double)",
+      "name_ar": "إسبريسو (دبل)",
+      "category": "Hot Coffee",
+      "tags": ["Hot"],
+      "caffeine_index": 7,
+      "customizable": false,
+      "prices": {
+        "small": 3000
+      }
+    },
+    {
+      "id": "espresso_triple",
+      "name_en": "Espresso (Triple)",
+      "name_ar": "إسبريسو (تربل)",
+      "category": "Hot Coffee",
+      "tags": ["Hot"],
+      "caffeine_index": 7,
+      "customizable": false,
+      "prices": {
+        "small": 4000
+      }
+    },
+    {
+      "id": "joco_black",
+      "name_en": "Joco Black Coffee",
+      "name_ar": "جوكو بلاك",
+      "category": "Hot Coffee",
+      "tags": ["Hot"],
+      "caffeine_index": 5,
+      "customizable": false,
+      "prices": {
+        "small": 2500,
+        "medium": 3500,
+        "large": 4500
+      }
+    },
+    {
+      "id": "chocolate_coffee",
+      "name_en": "Chocolate Coffee",
+      "name_ar": "قهوة شوكولاتة",
+      "category": "Hot Coffee",
+      "tags": ["Hot"],
+      "caffeine_index": 4,
+      "customizable": false,
+      "prices": {
+        "small": 2500,
+        "medium": 3500,
+        "large": 4500
+      }
+    },
+    {
+      "id": "turkish_coffee",
+      "name_en": "Turkish Coffee",
+      "name_ar": "قهوة تركية",
+      "category": "Hot Coffee",
+      "tags": ["Hot"],
+      "caffeine_index": 5,
+      "customizable": false,
+      "prices": {
+        "small": 2000,
+        "medium": 3000,
+        "large": 4000
+      }
+    },
+    {
+      "id": "cappuccino",
+      "name_en": "Cappuccino",
+      "name_ar": "كابتشينو",
+      "category": "Hot Coffee",
+      "tags": ["Hot"],
+      "caffeine_index": 5,
+      "customizable": true,
+      "prices": {
+        "medium": 3000,
+        "large": 4000
+      }
+    },
+    {
+      "id": "nescafe",
+      "name_en": "Nescafe",
+      "name_ar": "نسكافيه",
+      "category": "Hot Coffee",
+      "tags": ["Hot"],
+      "caffeine_index": 3,
+      "customizable": true,
+      "prices": {
+        "medium": 3000,
+        "large": 4000
+      }
+    },
+    {
+      "id": "spanish_latte_hot",
+      "name_en": "Spanish Latte (Hot)",
+      "name_ar": "سبانيش لاتيه (ساخن)",
+      "category": "Hot Coffee",
+      "tags": ["Hot"],
+      "caffeine_index": 4,
+      "customizable": true,
+      "prices": {
+        "medium": 4000,
+        "large": 5000
+      }
+    },
+    {
+      "id": "berry_latte_hot",
+      "name_en": "Berry Latte (Hot)",
+      "name_ar": "لاتيه توت (ساخن)",
+      "category": "Hot Coffee",
+      "tags": ["Hot"],
+      "caffeine_index": 4,
+      "customizable": true,
+      "prices": {
+        "medium": 4000,
+        "large": 5000
+      }
+    },
+    {
+      "id": "flavoured_latte_hot",
+      "name_en": "Flavoured Latte (Hot)",
+      "name_ar": "لاتيه بنكهات (ساخن)",
+      "category": "Hot Coffee",
+      "tags": ["Hot"],
+      "caffeine_index": 4,
+      "customizable": true,
+      "prices": {
+        "medium": 4000,
+        "large": 5500
+      }
+    },
+    {
+      "id": "kathban",
+      "name_en": "Kathban",
+      "name_ar": "كثبان",
+      "category": "Specialty",
+      "tags": ["Hot"],
+      "caffeine_index": 6,
+      "customizable": false,
+      "prices": {
+        "medium": 8000
+      }
+    },
+    {
+      "id": "sun_ice",
+      "name_en": "Sun Ice",
+      "name_ar": "ثلج الشمس",
+      "category": "Specialty",
+      "tags": ["Hot"],
+      "caffeine_index": 4,
+      "customizable": false,
+      "prices": {
+        "medium": 5000
+      }
+    },
+    {
+      "id": "iraqi_tea",
+      "name_en": "Iraqi Tea",
+      "name_ar": "شاي عراقي",
+      "category": "Tea",
+      "tags": ["Hot"],
+      "caffeine_index": 2,
+      "customizable": false,
+      "prices": {
+        "small": 1000
+      }
+    },
+    {
+      "id": "cinnamon_tea",
+      "name_en": "Cinnamon Tea",
+      "name_ar": "شاي قرفة",
+      "category": "Tea",
+      "tags": ["Hot"],
+      "caffeine_index": 1,
+      "customizable": false,
+      "prices": {
+        "small": 1000
+      }
+    },
+    {
+      "id": "mint_tea",
+      "name_en": "Mint Tea",
+      "name_ar": "شاي نعناع",
+      "category": "Tea",
+      "tags": ["Hot"],
+      "caffeine_index": 0,
+      "customizable": false,
+      "prices": {
+        "small": 1500
+      }
+    },
+    {
+      "id": "hibiscus_tea",
+      "name_en": "Hibiscus Tea",
+      "name_ar": "شاي كوجرات",
+      "category": "Tea",
+      "tags": ["Hot"],
+      "caffeine_index": 0,
+      "customizable": false,
+      "prices": {
+        "small": 1500
+      }
+    },
+    {
+      "id": "milk_tea",
+      "name_en": "Milk Tea",
+      "name_ar": "شاي بالحليب",
+      "category": "Tea",
+      "tags": ["Hot"],
+      "caffeine_index": 2,
+      "customizable": false,
+      "prices": {
+        "small": 2000
+      }
+    }
+  ]
+}
+

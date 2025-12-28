@@ -1,0 +1,134 @@
+🎨 Dr.Coffee – UI Guide (Developer Ready)
+1️⃣ Layout & Spacing System
+🔹 Base Grid
+8px Grid System
+كل المسافات تكون مضاعفات:
+8 / 16 / 24 / 32 / 48 / 64
+📌 لا تستخدم أرقام عشوائية
+🔹 Page Padding
+Desktop:
+Left / Right: 80px
+Section Spacing (Vertical): 96px
+Tablet:
+Padding: 48px
+Section spacing: 72px
+Mobile:
+Padding: 20px
+Section spacing: 56px
+🔹 Content Max Width
+Max Width: 1200px
+Centered layout
+2️⃣ Typography Rules (UI Level)
+Headings
+Element	Size	Weight	Line-height
+H1	56px	700	120%
+H2	40px	600	120%
+H3	28px	600	130%
+Body Text
+Size: 16px
+Line-height: 160%
+Weight: 400
+Small Text
+Size: 14px
+Line-height: 150%
+📌 لا تستخدم أقل من 14px
+3️⃣ Buttons System
+🔘 Primary Button
+Height: 48px
+Padding: 0 32px
+Border-radius: 999px
+Font-weight: 600
+Font-size: 16px
+Behavior:
+Default: Solid (Primary Color)
+Hover:
+Slight scale: 1.05
+Shadow appears
+Active:
+Scale: 0.97
+🔘 Secondary Button
+Height: 48px
+Padding: 0 28px
+Border: 1.5px solid Primary Color
+Background: Transparent
+Hover:
+Background fades in (10% opacity)
+🔘 Icon Button (WhatsApp / Call)
+Size: 48x48
+Shape: Circle
+Icon centered
+4️⃣ Cards (Products / Sections)
+Card Style
+Border-radius: 24px
+Padding: 24px
+Background: White / Light
+Card Hover
+Elevation (shadow)
+Image zoom: scale(1.05)
+Transition: 0.3s ease
+5️⃣ Image Rules
+Border-radius: 24px
+Aspect-ratio:
+Products: 1:1
+Hero images: 16:9
+Lazy loading enabled
+WebP preferred
+6️⃣ Animations & Motion
+✨ General Rules
+Subtle
+Smooth
+No flashy animations
+Page Load Animation
+Fade in + slide up
+Duration: 0.6s
+Delay staggered per section
+Scroll Animations
+Use Intersection Observer
+Animation:
+Opacity: 0 → 1
+TranslateY: 20px → 0
+Delay: 100ms per element
+Button Animation
+Hover scale
+Ripple disabled (keep clean)
+7️⃣ Navigation Behavior
+Header
+Sticky after 50px scroll
+Slight background blur
+Shadow appears on scroll
+Mobile Menu
+Slide from right
+Full height
+Close on link click
+8️⃣ Forms & Inputs (Contact)
+Input Style
+Height: 48px
+Border-radius: 16px
+Padding: 0 16px
+Border: 1px solid #DDD
+Focus State
+Border color = Primary
+No heavy glow
+9️⃣ CTA Placement Rules
+One main CTA per section
+Always visible above the fold
+Mobile: fixed bottom CTA
+🔟 Performance & UX Rules
+No blocking animations
+Transitions ≤ 300ms
+No auto-play audio
+Optimize images
+11️⃣ Accessibility (Important)
+Contrast ≥ WCAG AA
+Buttons min height 44px
+Click areas large
+Keyboard accessible
+🛠️ Stack Recommendation
+Tailwind CSS
+Framer Motion (animations)
+Next.js
+SVG Icons (Lucide / Heroicons)
+📦 What to Tell the Developer
+“Follow this UI Guide strictly.
+No custom spacing or animation without approval.
+Mobile-first. Performance-focused.”

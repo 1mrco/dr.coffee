@@ -1,0 +1,186 @@
+📘 وثيقة إنشاء موقع Dr.Coffee الرسمي
+(Full Website Script & Technical + Visual Specification)
+1️⃣ الهدف من الموقع (Website Goal)
+الهدف الأساسي:
+تحويل Dr.Coffee من مجرد Instagram Brand إلى علامة تجارية رقمية متكاملة
+دعم المبيعات
+بناء ثقة
+تسهيل الطلب
+دعم الإعلانات المدفوعة
+الأهداف الثانوية:
+إبراز الهوية البصرية
+عرض المنتجات بشكل احترافي
+جذب الشراكات
+تحسين الوجود الرقمي
+2️⃣ الجمهور المستهدف (Target Audience)
+العمر: 18 – 35
+طلاب / موظفين / شباب
+مستخدمين نشطين للهواتف
+يحبون:
+القهوة الباردة
+التصميم العصري
+السرعة
+البساطة
+📌 الموقع يجب أن يكون Mobile First
+3️⃣ الهيكل العام للموقع (Site Structure)
+الصفحات الأساسية:
+Home (الصفحة الرئيسية)
+Menu / Products
+About Dr.Coffee
+How to Order
+Locations (اختياري)
+Contact Us
+Footer
+4️⃣ الصفحة الرئيسية – Home Page (تفصيل كامل)
+🔥 Hero Section (أهم جزء)
+المحتوى:
+صورة أو فيديو خلفية (Loop Video)
+كوب قهوة + ثلج + حركة بطيئة
+عنوان كبير:
+START YOUR DAY THE RIGHT WAY
+نص فرعي:
+Fresh coffee. Bold flavors. Crafted for your energy.
+زر CTA:
+Order Now
+View Menu
+📌 ملاحظة تقنية:
+يفضل استخدام Video Background خفيف (mp4 compressed)
+☕ Featured Products Section
+عرض 4 منتجات أساسية:
+Blueberry Essence
+Joy
+Strawdairy
+Sun Ice
+لكل منتج:
+صورة
+الاسم
+نكهة قصيرة
+السعر
+زر:
+View Details
+⚡ Brand Message Section
+نص تسويقي:
+Dr.Coffee is not just a drink.
+It’s energy, mood, and lifestyle in one cup.
+مع أيقونات:
+⚡ Energy
+❄️ Fresh
+🎨 Crafted Design
+☕ Premium Coffee
+📸 Lifestyle Section
+صور بشرية (مثل Instagram):
+شخص يمسك الكوب
+شرب القهوة
+تفاعل حقيقي
+📌 هذا القسم مهم نفسيًا جدًا
+📲 Order Section
+نص:
+Order Dr.Coffee without leaving your car.
+أزرار:
+WhatsApp
+Call Now
+Instagram DM
+5️⃣ صفحة Menu / Products
+تصميم:
+Grid نظيف
+Cards لكل منتج
+لكل منتج:
+صورة كبيرة
+الاسم
+وصف قصير
+السعر
+Ingredients (اختياري)
+CTA:
+Order Now
+📌 بدون تعقيد – سرعة
+6️⃣ صفحة About Dr.Coffee
+المحتوى:
+قصة مختصرة:
+Dr.Coffee was created to bring energy and freshness into everyday life.
+القيم:
+Quality
+Freshness
+Creativity
+Youth Energy
+أسلوب:
+Minimal
+صادق
+غير طويل
+7️⃣ صفحة How to Order
+خطوات بسيطة:
+Choose your drink
+Contact us
+Enjoy your coffee
+مع Icons ورسوم بسيطة
+8️⃣ صفحة Contact
+رقم الهاتف
+WhatsApp
+Instagram
+Google Map (إذا يوجد موقع)
+9️⃣ Footer (مهم جدًا)
+Logo
+Social Links
+Copyright
+Short tagline
+🎨 10️⃣ الهوية البصرية (Visual Identity)
+الألوان (مهمة جدًا):
+Primary Color:
+Dark Green
+#1F3D2B
+Secondary Colors:
+Cream White
+#F5F3EE
+Coffee Brown
+#6F4E37
+Accent Colors:
+Orange
+#FF8C42
+Pink
+#F4A3B4
+Yellow
+#FFD166
+📌 نفس ألوان Instagram = توحيد العلامة
+الخطوط (Typography):
+Headings:
+Poppins / Montserrat
+Bold
+Modern
+Body Text:
+Inter / Open Sans
+📌 لا تستخدم خطوط كثيرة
+الأيقونات:
+Line Icons
+Minimal
+Rounded
+⚙️ 11️⃣ الجانب التقني (Technical Specs)
+Frontend:
+Next.js أو React
+Tailwind CSS
+Responsive 100%
+Backend (اختياري):
+Node.js
+أو Firebase
+Performance:
+Fast Loading
+Images optimized
+Lazy loading
+SEO:
+Meta titles
+Meta descriptions
+Alt text للصور
+Analytics:
+Google Analytics
+Facebook Pixel
+🚀 12️⃣ أفكار مستقبلية (Scalable)
+Online Ordering
+Loyalty System
+QR Menu
+Multi-language (AR / EN)
+🧠 الخلاصة
+هذا الموقع:
+يعكس قوة البراند
+يدعم Instagram
+مناسب للإعلانات
+قابل للتوسع
+احترافي 100%
+📌 تقدر تسلم هذه الوثيقة حرفيًا للمبرمج
