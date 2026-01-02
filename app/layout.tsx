@@ -1,10 +1,7 @@
 import type { Metadata } from 'next'
 import './globals.css'
-import Header from '@/components/Header'
-import Footer from '@/components/Footer'
-import MobileCTA from '@/components/MobileCTA'
-import ParallaxBackground from '@/components/ParallaxBackground'
 import { CartProvider } from '@/contexts/CartContext'
+import ConditionalLayout from '@/components/ConditionalLayout'
 
 export const metadata: Metadata = {
   title: 'Dr.Coffee - Start Your Day The Right Way',
@@ -21,11 +18,7 @@ export default function RootLayout({
     <html lang="en">
       <body className="relative">
         <CartProvider>
-          <ParallaxBackground />
-          <Header />
-          <main className="relative z-10">{children}</main>
-          <Footer />
-          <MobileCTA />
+          <ConditionalLayout>{children}</ConditionalLayout>
         </CartProvider>
       </body>
     </html>

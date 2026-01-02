@@ -9,6 +9,8 @@ import Customizer from './Customizer'
 import { useCart } from '@/contexts/CartContext'
 import Toast from './Toast'
 import menuData from '@/data/menu.json'
+import InlineEditablePrice from './InlineEditablePrice'
+import { useProductMapping } from '@/hooks/useProductMapping'
 
 interface MenuItem {
   id: string
@@ -26,15 +28,28 @@ interface MenuItemCardProps {
   item: MenuItem
   index?: number
   image?: string
+  availableCustomizationOptions?: Array<{
+    customizationOptionId?: number
+    id?: string
+    nameEn?: string
+    name_en?: string
+    nameAr?: string
+    name_ar?: string
+    price?: number
+  }>
 }
 
-export default function MenuItemCard({ item, index = 0, image }: MenuItemCardProps) {
+export default function MenuItemCard({ item, index = 0, image, availableCustomizationOptions }: MenuItemCardProps) {
   const [selectedSize, setSelectedSize] = useState<string>('')
   const [showCustomizer, setShowCustomizer] = useState(false)
   const [selectedCustomizations, setSelectedCustomizations] = useState<string[]>([])
   const [addedCustomizations, setAddedCustomizations] = useState<typeof menuData.customizationOptions>([])
   const [showToast, setShowToast] = useState(false)
+  const [localPrices, setLocalPrices] = useState<Record<string, number>>(item.prices)
   const { addItem } = useCart()
+  const { getProductId } = useProductMapping()
+  
+  const productId = getProductId(item.id)
 
   const isCold = item.tags.includes('Cold')
   const isHot = item.tags.includes('Hot')
@@ -51,9 +66,16 @@ export default function MenuItemCard({ item, index = 0, image }: MenuItemCardPro
     }
   }, [item.id, availableSizes, selectedSize])
 
-  const basePrice = selectedSize ? item.prices[selectedSize] || 0 : 0
+  const basePrice = selectedSize ? localPrices[selectedSize] || 0 : 0
   const customizationPrice = addedCustomizations.reduce((sum, opt) => sum + opt.price, 0)
   const totalPrice = basePrice + customizationPrice
+
+  const handlePriceUpdate = (size: string, newPrice: number) => {
+    setLocalPrices(prev => ({
+      ...prev,
+      [size]: newPrice
+    }))
+  }
 
   const handleCustomize = () => {
     setShowCustomizer(true)
@@ -184,16 +206,50 @@ export default function MenuItemCard({ item, index = 0, image }: MenuItemCardPro
 
         {/* Price */}
         <div className="mb-2 sm:mb-4">
-          <div className="flex items-baseline gap-1 sm:gap-2">
-            <span className="text-base sm:text-2xl font-bold text-primary">
-              {totalPrice.toLocaleString()} IQD
-            </span>
+          <div className="flex items-baseline gap-1 sm:gap-2 flex-wrap">
+            {productId && selectedSize ? (
+              <InlineEditablePrice
+                productId={productId}
+                productCode={item.id}
+                size={selectedSize}
+                currentPrice={basePrice}
+                onPriceUpdate={(newPrice) => handlePriceUpdate(selectedSize, newPrice)}
+                className="flex-shrink-0"
+              />
+            ) : (
+              <span className="text-base sm:text-2xl font-bold text-primary">
+                {basePrice.toLocaleString()} IQD
+              </span>
+            )}
             {customizationPrice > 0 && (
               <span className="text-xs sm:text-sm text-coffee/60">
                 (+{customizationPrice.toLocaleString()})
               </span>
             )}
           </div>
+          {/* Show all prices for admin editing (collapsed view) */}
+          {productId && Object.keys(localPrices).length > 1 && (
+            <details className="mt-2 text-xs sm:text-sm">
+              <summary className="cursor-pointer text-coffee/70 hover:text-primary transition-colors">
+                Edit all prices ({Object.keys(localPrices).length} sizes)
+              </summary>
+              <div className="mt-2 space-y-2 pl-2 border-l-2 border-primary/20">
+                {Object.entries(localPrices).map(([size, price]) => (
+                  <div key={size} className="flex items-center justify-between gap-2">
+                    <span className="text-coffee/70 capitalize font-medium">{size}:</span>
+                    <InlineEditablePrice
+                      productId={productId}
+                      productCode={item.id}
+                      size={size}
+                      currentPrice={price}
+                      onPriceUpdate={(newPrice) => handlePriceUpdate(size, newPrice)}
+                      className="text-sm"
+                    />
+                  </div>
+                ))}
+              </div>
+            </details>
+          )}
         </div>
 
         {/* Customizations Display */}
@@ -257,7 +313,16 @@ export default function MenuItemCard({ item, index = 0, image }: MenuItemCardPro
       {/* Customizer Modal */}
       {showCustomizer && (
         <Customizer
-          options={menuData.customizationOptions}
+          options={
+            availableCustomizationOptions && availableCustomizationOptions.length > 0
+              ? availableCustomizationOptions.map(opt => ({
+                  id: String(opt.customizationOptionId || opt.id || ''),
+                  name_en: opt.nameEn || opt.name_en || '',
+                  name_ar: opt.nameAr || opt.name_ar || '',
+                  price: opt.price || 0
+                }))
+              : menuData.customizationOptions
+          }
           onClose={() => setShowCustomizer(false)}
           onAdd={handleAddCustomization}
           selectedOptions={selectedCustomizations}
